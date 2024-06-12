@@ -1,0 +1,255 @@
+root{
+    --green:#27ae60;
+    --black:#333;
+    --white:#fff;
+    --bg-color:#eee;
+    --box-shadow: 0.5rem 1rem rgb(0,0,0,.1);
+    border: 1rem solid var(--black);
+
+}
+
+html{
+    font-size: 62.5%;
+
+   
+}
+
+
+/* Login page*/
+
+/*login page*/
+.main_image{
+    float: right;
+    padding-top: 7%;
+    width: 450px;
+}
+
+
+.Main_heading{
+    font-size: 90px;
+}
+
+.login_container{
+    text-align: center;
+    padding: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.button{
+    text-align: center;
+}
+
+
+/*login page*/
+
+/*item page*/
+
+.Item_container{
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+}
+ 
+th, td {
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.booking {
+    text-align: center;
+}
+
+th {
+    background-color: #4d4d4f;
+    font-size: 20px;
+    color: white;
+}
+ 
+td img {
+    max-width: 100px;
+    height: auto;
+}
+
+
+
+/*item page*/
+
+
+
+/* Login page*/
+
+/*table page*/
+
+
+.header_view{
+    text-transform: uppercase;
+    color:  #4d4d4f;
+    text-align: center;
+    font-size: 50px;
+}
+
+.btn{
+    display: block;
+    width: 95%;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+}
+
+.message{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.container{
+    max-width: 1300px;
+    padding: 2rem;
+    margin:0 auto ;
+    overflow: hidden;
+
+}
+
+
+.admin-product-form-container form{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: .5rem;
+  
+
+}
+
+.admin-product-form-container form h3{
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.admin-product-form-container form .box{
+    width: 95%;
+    border-radius: .5rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.7rem;
+    background: white;
+}
+
+
+
+
+.product-display{
+    margin: 2rem 0;
+    max-height: 800px; /* Adjust height as needed */
+    overflow-y: auto
+    
+
+
+}
+
+.product-display .product-display-table{
+    width: 100%;
+    text-align: center;
+}
+
+.product-display .product-display-table thead{
+
+    font-size: 2rem;
+    background: #a192923b;
+
+}
+
+
+.product-display .product-display-table th{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.product-display .product-display-table td{
+    padding: 1rem;
+    font-size: 2rem;
+    border-bottom: var(--black);
+}
+
+.product-display .product-display-table .btn:first-child{
+    margin-top: 0;
+}
+
+
+
+
+/*booking*/
+
+.word_form{
+    font-size: 2rem;
+}
+
+.list_form{
+    font-size: 1.8rem;
+}
+
+
+.button{
+    padding: 10px 18px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4d4d4f;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.login_button{
+    padding: 10px 30px;
+    font-weight: bolder;;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4d4d4f;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.back_button{
+    padding: 10px 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4d4d4f;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+    outline:none;
+    cursor: pointer;
+}
+
+.back_button2{
+    padding: 10px 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4d4d4f;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+    outline:none;
+    cursor: pointer;
+    float: right;
+}
+/*booking*/
